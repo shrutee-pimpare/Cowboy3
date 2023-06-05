@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+  scroll-behavior: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 20px 50px;
+  background-color: #2c2c2c;
+}
+
+nav .logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin-top: 70px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul li {
+  font-size: 18px;
+  margin-top: 8px;
+  padding: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #ff5e41;
+}
+
+.btn1 {
+  position: absolute;
+  bottom: 83%;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 15%;
+  left: 90%;
+  transform: translateX(-50%);
+  color: #ffa08f;
+  background-color: #811906;
+  cursor: pointer;
+}
+
+.btn3:hover {
+  background-color: #fff;
+  color: #e67e22;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #2c2c2c;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 20px 50px;
+  background-color: #2c2c2c;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 35%;
+  margin-top: 60px;
+
+  align-items: center;
+}
+
+.btn1 {
+  position: absolute;
+  bottom: 83%;
+  padding: 20px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 15%;
+  left: 90%;
+  transform: translateX(-50%);
+  color: #ffa08f;
+  background-color: #811906;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #fff;
+  color: #e67e22;
+}
+
+.image {
+  margin: auto;
+
+  width: 663.64px;
+  height: 389.56px;
+  margin-left: 400.64px;
+  margin-top: 4%;
+}
+
+.bike-info {
+  display: flex;
+  /* margin-top: 8%; */
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  justify-content: center;
+  margin-right: 4%;
+
+  /* margin-bottom: 10%; */
+}
+.bike-info h6 {
+  color: #8b8a89;
+}
+.bike-info span {
+  padding: 30px;
+
+  text-align: center;
+}
+.btn2,
+.btn3 {
+  display: inline-block;
+  padding: 18px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff2a03;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 25%;
+}
+
+.btn3 {
+  background-color: transparent;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.btn3 {
+  margin-right: 15px;
+}
+
+.btn2:hover,
+.btn3:hover {
+  background-color: #ff2a03;
+  color: #fff;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+h1 {
+  position: absolute;
+  width: 1145px;
+  height: 232px;
+  left: 98px;
+  top: 218px;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 240.09px;
+  line-height: 96.5%;
+  /* identical to box height, or 232px */
+
+  color: rgba(255, 255, 255, 0.07);
+}

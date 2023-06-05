@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">COWBOY.</div>
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="main.html">About Us</a></li>
+                    <li><a href="Contact.html">Service & Support</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <h1>Contact Information</h1>
+        <form action="Contact.php" method="POST">
+            <div class="form-row">
+                <div class="form-column">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-column">
+                    <label for="bicycle">Select from available Bicycles for test Ride</label>
+                    <select id="bicycle" name="bicycle" required>
+                        <option value="">Select</option>
+                        <option value="Mountain Bike">Mountain Bike</option>
+                        <option value="Road Bike">Road Bike</option>
+                        <option value="City Bike">City Bike</option>
+                        <option value="Hybrid Bike">Hybrid Bike</option>
+                        <option value="Trail Bike">Trail Bike</option>
+                        <option value="Enduro Bike">Enduro Bike</option>
+                        <option value="Fat Bike">Fat Bike</option>
+                        <option value="Cross-Country Bike">Cross-Country Bike</option>
+                        <option value="Downhill Bike">Downhill Bike</option>
+                    </select>
+                    <label for="phone">Phone Number</label>
+                    <input type="number" id="phone" name="phone" required>
+                    <label for="region">Your Location</label>
+                    <input type="text" id="region" name="region" required>
+                </div>
+            </div>
+
+            <!-- <input type="checkbox" id="check">
+            <h5>I'm interested in Cowboy updates</h5>
+            <p class="text"> By clicking "Submit & Continue" I agree to share the provided information with Cowboy to be
+                contacted with more details or offers <br /> about Tesla products. I understand these calls or texts may
+                use computer-assisted dialing or pre-recorded messages. This <br /> consent is not a condition of the
+                test drive</p> -->
+            <button class="btn" type="submit">Submit and Continue</button>
+        </form>
+
+        <h1 class="watermark">COWBOY3</h1>
+        <img class="image" src="bugcycke.png" alt="Bicycle">
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">Cowboy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </div>
+</body>
+
+</html>

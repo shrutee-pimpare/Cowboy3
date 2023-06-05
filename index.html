@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script>
+    function validateLoginForm(event) {
+        event.preventDefault();
+
+        var email = document.querySelector('input[type="email"][placeholder="Email Address"]').value;
+        var password = document.querySelector('input[type="password"][placeholder="Password"]').value;
+
+        if (email.trim() === "") {
+            alert("Please enter your email address.");
+            return false;
+        }
+
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+        }
+
+        if (password.trim() === "") {
+            alert("Please enter a password.");
+            return false;
+        }
+
+        return true;
+    }
+
+    function isValidEmail(email) {
+        // Regular expression for email validation
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+</script>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Login</h2>
+            <form action="login.php" method="POST">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="login">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+        </div>
+        <h1 class="watermark">
+            COWBOY
+        </h1>
+    </div>
+</body>
+
+</html>
