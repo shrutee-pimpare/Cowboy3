@@ -8,3 +8,12 @@ of reputable bike shops in your area. Our selection process ensures that you hav
 models, sizes, and brands.
 We understand that each rider has unique requirements and preferences. Our website employs advanced algorithms
 to provide personalized recommendations tailored to your specific needs.
+
+User Interface-
+
+![WhatsApp Image 2023-05-20 at 4 42 13 PM](https://github.com/shrutee-pimpare/Cowboy3/assets/90600754/fc3cf27c-3794-427b-87fb-9ec503d36e2e)
+![WhatsApp Image 2023-05-20 at 4 41 48 PM](https://github.com/shrutee-pimpare/Cowboy3/assets/90600754/d0655084-2a63-4355-a0a8-2bb0e2f15188)
+
+![WhatsApp Image 2023-05-20 at 4 42 13 PM](https://github.com/shrutee-pimpare/Cowboy3/assets/90600754/cf842a24-4eaf-428d-8fb2-109327a68ffe)
+![WhatsApp Image 2023-05-20 at 4 43 00 PM](https://github.com/shrutee-pimpare/Cowboy3/assets/90600754/db11fe9e-c273-4814-a4cb-460a7074c9cd)
+![WhatsApp Image 2023-05-20 at 4 43 24 PM](https://github.com/shrutee-pimpare/Cowboy3/assets/90600754/fe208d5c-ae5a-4247-bb80-34721363bd70)
